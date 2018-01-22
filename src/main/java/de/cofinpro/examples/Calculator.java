@@ -62,6 +62,8 @@ public class Calculator {
                 }
                 // pop the bracket from the stack
                 operatorStack.pop();
+            } else {
+                throw new ParseException("Unparsable input: " + token, -1);
             }
         }
 
