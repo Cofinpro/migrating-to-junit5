@@ -19,7 +19,7 @@ class CalculatorTest {
 
     @Test
     void testSimpleAddition() throws ParseException {
-        assertEquals(1.7d, calculator.calculate("1,5 + 0,2"));
+        assertEquals(6, calculator.calculate("2 + 4"));
     }
 
     @Test
